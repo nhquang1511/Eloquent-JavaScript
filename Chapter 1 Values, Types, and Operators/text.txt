@@ -1,0 +1,15 @@
+in the computer's world, these is only data. you can read data, modify data, create new data- but that which isn't data cannot be mentioned. All this data is stored as long sequences of bits and is thus fundamentally alike.
+bits are any kind of two-valued things,usually described as zero and ones.
+inside the computerm they take forms such as a high or low electrical charge, a strong or weak signal, or a shiny or dull spot on the surface of a CD. any piece of discrete information can be reduced to a sequence of zeros and ones adn thus represented in bits.
+for example we can express the num 13 in bits. this works the same way as a decimal number, but instead of 10 different digits, we have only 2, and the weight of each increases by a factor of 2 from right to left.here are the bits that make up the number 13. with the weights of the digits shown below them:
+0   0   0   0   1   1   0   1
+128 64  32  16  8   4   2   1
+that's the binary number 00001101. its nonzero digits stand for 8,4 and 1 and add up to 13
+
+----------------------VALUES--------------
+imagine a sea of bits- an ocean of them. a typical modern comuter has more than 100 bilion bist in its volatile data storage(working memory). nonvolatile storage(the hard disk or equivalent) tends to have yet a few orders of magnitude more.
+to be able to work with such quantities of bits without getting lost, we separate them into chunks that represent pieces of information. in a javaScript environment, those chunks are called values. thought all values are made of bits, they play different roles.every value has a type that determines its role. some values are numbers, some values are pieces of text, some values are funtions,
+and so on.
+to create a value, you must merely invoke its name. this is convenient, you don't have to gather building material for your values or pay of them.you just call for one, and whoosh you have it. of course, values are not really create from thin air. each one has to be stored somewhere, and if you want to use a gigantic number of them at the same time, you might run out of computer memory. Fortunately, this is a problem only if you need them all simultaneously. as soon as you no longer use a value, it will dissipate, leaving behind its bits to be recyled as building material for the next generation of values.
+the remainder of this chapter introduce the atomic elements of javaScript programs, that is , the simple value types and the operators that can act on such values
+-------------------------Numbers-----------------
