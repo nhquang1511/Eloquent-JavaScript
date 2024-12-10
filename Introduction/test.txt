@@ -69,4 +69,10 @@ the moral of this story is that the same program can be expressed in both long a
 a good programing language hepls the programmer by allowing the to talk about the actions that the computer has to perform on a higher level.
 it helps omit detail, provides convenient building blocks( such as while and console.log), allows you to define your own building blocks( such as sum and range), and makes those blocks easy to compose.
 
+-----------------What is javaScript-----------------------
+
+
+
+
+
 
