@@ -1,1 +1,1 @@
-no readme
+All the content above is intended for educational purposes only.
