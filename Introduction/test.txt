@@ -89,3 +89,25 @@ the easiest way to run the example code in the book and to experiment with it- i
 there, you can click any code example to edit and run it and to see the output it produces. to work on the exercises, go to https://eloquentjavascript.net/code/ coe which provides starting code for each coding exercise and allows you to look at the solutions.
 running the programs define in this book outside of the book's website requires some care. many example stand on their own and should work in any javaScript environment. 
 but code in later chapters is often written for a specify environment ( the browser or node.js) and can run only there. in addition, many chapters define bigger programs and the pieces of code that appear in the depend on each other or on external files. the sandbox on the website provides links to Zip files containing all the scripts and data files necessary to run the code for a given chapter.
+
+------------overview of this book-------------
+this book contains roughly three parts. the first 12 chapters discuss the javaScript language. the next seven chapters are about web browers and the way javaScript is used to program them. finally two chapters are deveted to node.js another environment to program javaScript in. there are five project chapters in the book that describe larger example program to give you a taste of actual programming 
+the language part of the book starts with four chapters that introduce the basic structure of the javaScript language. they discuss control structure ( such as the while word you saw in this introduction), functions(writing your own building blocks) and data structure. after these, you will be able to write basic programs. next chapters 5 and 6 introduce techniques to use functions and objects to write more abstact code and keep complexity under control.
+after a first project chapter that builds a crude delivery robot, the language part of book continnues with chapters on error handling and bug fixing, regular expressions(an important tool for working with text), modularity(an other defense against complexity) and asyschronous programing(dealing with event that take time). the second project chapter, where we implement a programming language, concludes the first part of the book.
+the second part of the book, chapter 13 to 19 describe the tools that brower javaScript has access to. You'll learn to display things on the screen(chapters 14 and 17), respond to user input(chapter 15), and communicate over the network(chapter 18). there are again two project chapters in this part: building a platform game and a pixel paint program.
+chapter 20 describes node.js and chapter 21 build a small website using that tool.
+
+---------------------TYPOGRAPHIC CONVENTIONS-------
+in this book, text written in a monospaced font will represent elements of program. Sometimes these are self-sufficient fragments, and sometimes they just refer to part of a nearby program. Programs (of which you have already seen a few) are written as fllow:
+    funtion factorial(n){
+        if(n==0){
+            return 1;
+        }else{
+            return factorial(n-1)*n;
+        }
+    }
+    sometime to show the output that a program produces,
+    the expected output is written after it, with two slashed and an arrow in front.
+    console.log(factorial(8));
+    //->40320
+    good luck!
