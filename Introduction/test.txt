@@ -26,3 +26,47 @@ some programmers believe that this complexity is best managed by using onle a sm
 this is not only boring-it is ineffective. new problems often require new solutions. the field of programming is young and still developing rapidlly, and it is varied enought to have room for wildly different approaches. there are many terrible mistaks to make in program design,
 adn you should go ahead and make them at least once so that understand them. A sense of what a good prgram look like is developed with practice, not learned from a list of rules.
 
+----------------why language matters--------------
+in the beginning, at the birth of computing, there were no programming language. programs looked something like this:
+0011001 000000 00000000
+1100000 101000 00101000
+
+this is a program to add the numbers from 1 to 10 together and print the result: 1 + 2+ ... 10 = 55. it could run on a sumple hypothetical machine.
+to program early computers, it was necessary to set large arrays of switches in the right position or punch holes in strips of cardboard and feed them to the computer. you can imagine how tedious and error prone this procedure was. even writing simple programs required much cleverness and discipline.
+complexx ones were nearly inconceivable.
+of cource manually entering these arcane patterns of bits(the one and zeros) did give the programmer a profound sense of being a mighty wizard. and that has to be worth something in terms of job satisfaction.
+each line of the previous program contains a single instruction. it could be written in english liks this:\
+1 store the number 0 in memory location 0.
+2 store the number 1 in memory location 1
+3 store the value of memory location 1 in memory location 2
+4 subtract the number 11 from the value in memory location2
+5 if the value in memory location 2 is the number 0, continue with instruction 9
+6 add the value of memory location 1 to memory location 0
+7 add the number 1 to the value of memory location 1
+8 continue with instrution 3
+9 output the value of memory location 0.
+althought that is already more readble than the soup of bits, it is still rather obscure, using name instead of numbers for the instructions and memory location helps.
+set "total" to 0 
+set "count" to 1
+[loop]
+set "compart" to "count"
+subtract 11 from "compare"
+if "compare" is 0, continue at [end].
+add "count" to "total"
+add 1 to "count"
+continue at [loop].
+[end]
+output "total"
+can you see how the program works at this point? the first two lines give to memory location their starting values: total will be used to build up the result of the computation, and count will keep track of the number that we are currently looking at. the lines using compare are probaly the most confusing ones. the program wants to see whether count is equal to 11 to decide whther it can stop runnning. because our hypothetical machine is rather primitive, it can test only whether a number is zero and make a decision based on that.it therefore uses the memory location labeled compare to compute the value of count --11 and makes a decision based on that value. the next two lines add the value of count to the result and increment count by 1 every time the program decides that count is not 11 yet.
+here is the same program in javasrcipt:
+
+this version gives us a few more improvement. most importantly, there is no need to specify the way we want the program to jump back and forth anymore-the while construct takes care of that. it continues executing the block(wrapped in braces) below it as long as the condition is was given holds.
+that condition is count <= 10, which means "the count is less than or equal to 10". we no longer have to create a temporary value and compare that to zero, which was just an uninteresting detail. prat of the power of programing language is that they can take care of uninteresting details fo us.
+at the end of the program, after the while construct has finished, the console.log operation is used to write out the result.
+finally, here is what the program could look like if we happened to have the convenient operation range and sum available which respectively create a collection of numbers within a range and compute the sum of a collection of numbers:
+
+the moral of this story is that the same program can be expressed in both long and short, unreadable and readble ways. the first version of the program was extremely obscure, whereas this last one is almost enlish: log is the sum of the range of numbers from 1 to 10.(we will see in later chapters how to define operation like sum and range)
+a good programing language hepls the programmer by allowing the to talk about the actions that the computer has to perform on a higher level.
+it helps omit detail, provides convenient building blocks( such as while and console.log), allows you to define your own building blocks( such as sum and range), and makes those blocks easy to compose.
+
+
