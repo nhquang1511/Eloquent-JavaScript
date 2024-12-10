@@ -6,3 +6,23 @@ Most programming is done with programming languages. A programming language is a
 like human languages, computer languages allow words and phrases to be combined in new ways, making it possible to express ever new concept.
 at one point, language-based interfaces, such as the BASIC and DOS prompts of the 1980s and 1990s, were the main method of interacting with computers. for routine computer use, these havea largely been replaced with visual interfaces, which are easier to learn but offer less freedom. but if you know where to look, the languages are still there. One of them javaScript, is built into every modern web browser-and is thus available on almost every device.
 this book will try to make you familar enought with this language to do useful and amusing thing with it.
+
+----------------On programing---------------------
+besides explaining javascrit, i will introduce the basic principles of programming, programming, it turns out, is hard.. the fundamental rules are simple and clear, but programs built on top of these rules tend to become complex enought to intrudce their own rules and complexity. You're building your own maze, in a way and you can easily get lost in it.
+there will be times when reading this book feels terribly frustrating. if you are new to programming, there will be a lot new material to digest. Much of this material will then be combined in ways that require you to make additional connnections.
+it is up to you make the necessary effort. when you are struggling to follow the book, do not jump to any conclusions about your own capabilities.
+you are fine-you just need to keep at it. take a break, reread some material, and make sure you read and understand the example programs and exercises.
+learning is hard work, but everything you learn is your and will makr further laerning easier
+when action grows unprofitable, gather information; when information grows unprofitable, sleep
+
+a program is many things. it is a piece of text typed by programmer, it is the directing force that makes the computer do what is does, it is data in the computer's memory, and at the same time, it controls the actions performed on this memory. Analogies that try to compare programs to familar objects tend to fall short. a superficially fitting one is to compare a program to a machine- lots of separate parts tend to be involed, and to make the whole thing tick, we have to consider the ways in which these parts onterconnect and contribute to the operation of the whole
+a computer is a physical machine that acts as host for these immaterial machines. computers themselves can do only stupidly straighforward things.
+the reason they are so use ful is that they do these things at an incredibly high speed. a program can ingeniously combine an enormous number of these simple actions to do very complicated things.
+a program is a building of thought. it is costless to build, it is weighless, and it grows easily under our typing hands. but as program grows, so does its comlexity.
+the skill of programming is the skill of building programs that don't confuse the programmer.
+the best programs are those that manage to do something interesting while still being easy to understand.
+
+some programmers believe that this complexity is best managed by using onle a small set of well-understood techniques in their programs. they have composed strict rules("best practices") prescribing the form programs should have and carefully stay within their safe little zone.
+this is not only boring-it is ineffective. new problems often require new solutions. the field of programming is young and still developing rapidlly, and it is varied enought to have room for wildly different approaches. there are many terrible mistaks to make in program design,
+adn you should go ahead and make them at least once so that understand them. A sense of what a good prgram look like is developed with practice, not learned from a list of rules.
+
